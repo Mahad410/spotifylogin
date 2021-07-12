@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: sans-serif !important;
+    
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    right: 0%;
+    width: 100%;
+    top: 0%;
+}
+
+.logo{
+    display: block;
+    background-image: url(Screenshot\ 2021-05-13\ 003914.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 98px;
+    width: 258px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container
+{
+    position: relative;
+  
+    width: 450px;
+    height: 100%;
+    margin: auto;
+    
+}
+    
+.container p{
+    position: relative;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    margin-top:33px;
+    margin-bottom: 10px;
+    letter-spacing: normal;
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+    user-select: none;
+}
+
+.btn_fb button{
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+    width: 450px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+ .btn_fb button:hover{
+    background-color: #4364aa;
+ }
+
+.btn_apple button{
+    background-color: black;
+    border: 2px solid black;
+    width: 450px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn_apple:hover{
+    opacity: 0.8;
+}
+
+.btn_google button{
+    background-color: transparent;
+    border: 2px solid black;
+    width: 450px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(95, 94, 94);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn_google button:hover{
+    background-color:  #616467;
+    color: white;
+    border: 2px solid #616467 ;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.or .left hr{
+    position: relative;
+    background-color: #ccc;
+    display: inline-block;
+    width: 190px;
+   
+}
+.or h5{
+    display: inline-block;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    user-select: none;
+}
+
+.or .right hr{
+    background-color: #ccc;
+    display: inline-block;
+    width: 190px;
+}
+
+.frm{
+    margin-left: 2%;
+}
+
+.frm label{
+    position: relative;
+    font-size:14px;  
+    font-weight: bold;
+    color: #616467 black !important;
+    user-select: none;
+}
+
+input[type="email"]{
+    width: 419px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="password"]{
+    width: 419px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus,select:focus
+{
+    border: 1px solid rgb(131, 130, 130) !important;
+    outline-offset: 1 !important;
+    outline: none !important;
+}
+.f_p{
+    margin-top: 10px;
+    user-select: none;
+}
+.f_p a{
+    color: rgb(131, 130, 130);
+    text-decoration: underline;
+    
+    
+}
+.f_p a:hover{
+    color:#15883e;
+}
+.r_m{
+    user-select: none;
+}
+.r_m label{
+    margin-top: 50px;
+    color: rgb(131, 130, 130);
+    font-size: 16px;
+    display: inline-block;
+    font-weight: normal;
+    
+}
+
+.r_m input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    
+}
+
+
+.l_i{
+    display: inline;
+    float: right;
+    margin-top: 35px;
+}
+
+.l_i button{
+    background-color: #15883e;
+    border: 2px solid #15883e;
+    width: 220px;
+    height: 48px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .l_i button:hover{
+    background-color: #22c45b ;
+    color:white;
+    border:2px solid #22c45b ;
+    }
+
+
+    .line hr{
+        background-color: #ccc;
+        width: 440px;
+        height: -0.1px;
+    }
+
+    .s_u p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .s_u .btn_signup button{
+        background-color: transparent;
+        border: 2px solid black;
+        width: 450px;
+        height: 48px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(95, 94, 94);
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .btn_signup button:hover{
+        background-color:  #616467;
+        color: white;
+        border: 2px solid #616467 ;
+    }
