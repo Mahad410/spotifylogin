@@ -1133,7 +1133,7 @@ input:focus, textarea:focus,select:focus
             }
     }
 
-    @media  (max-width:766px) and (min-width:426px){
+    @media (max-width:766px){
 
         .l_i{
             margin-top: 10px;
