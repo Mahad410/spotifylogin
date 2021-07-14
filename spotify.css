@@ -1132,3 +1132,33 @@ input:focus, textarea:focus,select:focus
                 margin-bottom: 10px;
             }
     }
+
+    @media (max-width:766px) {
+
+        .l_i{
+            margin-top: 10px;
+        }
+        
+        .l_i button{
+            margin-right: 1px;
+            background-color: #15883e;
+            border: 2px solid #15883e;
+            width: 450px ;
+            height: 48px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 15px;
+            }
+            
+            .l_i button:hover{
+            background-color: #22c45b ;
+            color:white;
+            border:2px solid #22c45b ;
+            }
+        
+    }
