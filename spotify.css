@@ -1133,7 +1133,11 @@ input:focus, textarea:focus,select:focus
             }
     }
 
+<<<<<<< HEAD
     @media  (max-width:767px) and (min-width:500px){
+=======
+    @media (max-width:766px) and (min-width:766px){
+>>>>>>> d231513f1a3c5156acf3af6a326afe1d220c4eee
 
         .l_i{
             margin-top: 10px;
