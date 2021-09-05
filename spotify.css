@@ -198,6 +198,8 @@ input:focus, textarea:focus,select:focus
     outline-offset: 1 ;
     outline: none ;
 }
+
+
 .f_p{
     margin-top: 10px;
     user-select: none;
@@ -230,7 +232,6 @@ input:focus, textarea:focus,select:focus
     /* may not work in all browsers */
     accent-color:#15883e;
 }
-
 
 .l_i{
     display: inline;
