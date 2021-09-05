@@ -227,7 +227,8 @@ input:focus, textarea:focus,select:focus
     width: 20px;
     height: 20px;
     display: inline-block;
-    
+    /* may not work in all browsers */
+    accent-color:green;
 }
 
 
